@@ -23,5 +23,11 @@ The tool requires five inputs,
     *The point created from this X,Y co-ordinate is used as the reference seed point from which the segmentation starts. 
     *NOTE: You can use the [SNAP-ITK](http://www.itksnap.org/pmwiki/pmwiki.php) software to find the X,Y co-ordinate.
 
-Examples cmd to run the tool:
-    **python createSegmentationMask.py brain.mha greyMatter.mha 90 256 192 162**
+Examples cmd to run the tool:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**python createSegmentationMask.py brain.mha greyMatter.mha 90 256 192 162**
+
+Example input image included with repository -> brain.mha
+Example output segmentation mask included with repository -> greyMatter.mha
+
+**Requirements:**\
+*   [pip install simpleitk](https://pypi.org/project/SimpleITK/)
