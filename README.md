@@ -21,7 +21,7 @@ The tool requires five inputs,
 *   The X co-ordinate of the grey matter from the grey matter column at the centre of the image.
 *   The Y co-ordinate of the grey matter from the grey matter column at the centre of the image.
     *The point created from this X,Y co-ordinate is used as the reference seed point from which the segmentation starts. 
-    *NOTE: You can use the SNAP-ITK software to find the X,Y co-ordinate.
+    *NOTE: You can use the [SNAP-ITK](http://www.itksnap.org/pmwiki/pmwiki.php) software to find the X,Y co-ordinate.
 
 Examples cmd to run the tool:
     **python createSegmentationMask.py brain.mha greyMatter.mha 90 256 192 162**
